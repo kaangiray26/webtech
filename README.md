@@ -1,1 +1,3 @@
 # webtech
+
+* [Notes](notes.md)
