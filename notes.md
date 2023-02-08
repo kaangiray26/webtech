@@ -43,3 +43,4 @@
     {} ist eine Attribute
     () ist ein Text
     ```
+* Geben Sie an um welche HTML-Elemente es sich in einem gegebenen HTML-Layout handelt.
