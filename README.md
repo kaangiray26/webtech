@@ -42,6 +42,7 @@
     () ist ein Text
     ```
 3. Geben Sie an um welche HTML-Elemente es sich in einem gegebenen HTML-Layout handelt.
+
     | Selector                             | Description                                                                                              |
     | ------------------------------------ | -------------------------------------------------------------------------------------------------------- |
     | `#element_id {}`                     | Ein HTML Element mit `id="element_id"`                                                                   |
@@ -79,7 +80,7 @@
     Spezifität: (122)
     ```
 
-9. Was sind wichtige HTML-Tags, um eine HTML5 Seite aufzubauen? (Beschreiben Sie in einem Satz jeweils die Funktion des Tags. Nennen Sie 5 HTML-Tags.
+9.  Was sind wichtige HTML-Tags, um eine HTML5 Seite aufzubauen? (Beschreiben Sie in einem Satz jeweils die Funktion des Tags. Nennen Sie 5 HTML-Tags.
 
     1. `<nav>`: Man nutzt es um Linke für die Navigation hinzulegen.
     2. `<div>`: Man kann es benutzen um Containers für die Elemente darunten zu erstellen.
@@ -89,3 +90,7 @@
 
 10. Auf einer Webseite werden die Umlaute kryptisch dargestellt. Welche Ursachen könnten dieses Verhalten haben? Welche Optionen gibt es das Verhalten zu korrigieren?
     * Nicht alle Webseiten unterstützen die Sonderzeichen wie `ä,ü,ö` et cetera. Um dieses Problem zu lösen kann man einfach die Charset der Webseite deklarieren mit `<meta charset="UTF-8">` innerhalb der `<head>` Element.
+
+## Server
+
+1. 
