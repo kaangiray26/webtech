@@ -153,3 +153,33 @@ Sie erhalten den Status Code nxy (Konkretisierung durch nє[1-9], x,yє[0-9]). K
 | 9xx  | Proprietäre                            |
 
 ### 6
+Was ist der Vorteil von HTTPS bzw. TLS?
+
+Die Übertragung zwischen den beiden Endpoints sind beim HTTPS Protokol verschlüsselt. Damit kann man sicher private Daten übertragen. Heute nutzt man TLS.
+
+### 7
+In Ihrer Applikation ist die Kommunikation zum Server über den TLS-Standard gesichert. Ist ein Hashing des Passworts seitens Clients weiterhin notwendig? Begründen Sie Ihre Antwort.
+
+Man soll immer den Passwort als Hash zum Server senden. Wenn der Client den Passwort zum Server sendet, wird dies entweder bearbeitet oder speichert. In beiden Fällen Bearbeitung von den tatsächlichen Passwort ist ein Sicherheitsrisiko, da die Person, die den Server verwaltet alles sehen kann. Sonst, gehashte Passworte haben die gleiche Funktionalität.
+
+### 8
+Was ist Caching und wie unterscheidet es sich zu gegenüber Sessions und Cookies?
+
+Beim Caching bewahrt man den Response von einer Anforderung für zukünftige Zugriffe auf. Dabei können z.B. Bilder, CSS-Sheets usw. aufbewahrt werden.
+
+Im Vergleich, Sessions und Cookies sind domain-basiert. Diese verwendet man um einige Daten auf dem Browser aufzubewahren und dabei einen Context mit dem Server zu binden.
+
+### 9
+Erkläre den Unterschied zwischen einem Proxy und einem Reverse Proxy.
+
+* Bei einem Proxy wird der Client, der die Anforderung macht, unbekannt für den Server sein.
+* Bei einem Reverse Proxy aber, sind mehrere Servern unter einem domain gesammelt. Dabei wird der Server, der die Anforderung nimmt, unbekannt für den Client sein.
+
+### 10
+Erklären Sie die Funktionsweise des CGI (Common Gateway Interface).
+
+Mit dem CGI werden HTML-Seiten dynamisch erzeugt. Bei jedem Request wird ein Interpreter im Server erzeugt und dies bearbeitet den Request mit einem externen Program, welches im Request spezifiziert wurde.
+
+### 11
+Was sind die Vorteile und Nachteile von Apache Modules gegenüber von CGI und Fast CGI? Nennen Sie jeweils x Vor- und Nachteile.
+
