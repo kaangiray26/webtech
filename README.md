@@ -130,3 +130,8 @@ Wofür sind die HTTP Header Informationen nützlich oder notwendig?
 * Oder kann man die User Agent des Geräts noch deklarieren (`User-Agent`).
 
 ### 3
+Was ist die Aufgabe der "Request Line" eines HTTP Requests?
+
+Die "Request Line" z.B. (`GET /api/feed HTTP/1.1`) ist notwendig dafür, die Methode für die HTTP Protocol, die Adresse der Resource und den Version von der HTTP Protokol zu bestimmen.
+
+### 4
