@@ -59,9 +59,9 @@
 
 5. Welche Arten gibt es CSS-Regeln einzubinden? Wann ist welche Art sinnvoll? (Vor- und Nachteile)
     * Man kann CSS-Regeln in drei Wege einbinden:
-    1. Man kann ein inline-CSS einbinden, indem die `style` Attribut angewandt wird.
-    2. Man kann den `<style>` Element im HTML Head hinfügen.
-    3. Man kann einen externen CSS-Sheet einbinden mit dem `<link rel="stylesheet" href="stylesheet.css">`.
+    * Man kann ein inline-CSS einbinden, indem die `style` Attribut angewandt wird.
+    * Man kann den `<style>` Element im HTML Head hinfügen.
+    * Man kann einen externen CSS-Sheet einbinden mit dem `<link rel="stylesheet" href="stylesheet.css">`.
   
 6. Welche Arten von Selektoren gibt es und wann ist deren Verwendung sinnvoll?
    * Siehe (HTML & CSS/ Frage 3)
