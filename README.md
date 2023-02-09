@@ -45,6 +45,13 @@
     () ist ein Text
     ```
 * Geben Sie an um welche HTML-Elemente es sich in einem gegebenen HTML-Layout handelt.
-    ```
-    Einfach  
-    ```
+    | Selector                             | Description                                                                                              |
+    | ------------------------------------ | -------------------------------------------------------------------------------------------------------- |
+    | `#element_id {}`                     | Ein HTML Element mit `id="element_id"`                                                                   |
+    | `.element_class {}`                  | Ein HTML Element mit `class="element_class"`                                                             |
+    | `video {}`                           | Alle `<video>` Elemente auf der Webseite                                                                 |
+    | `* {}`                               | Alle Elemente auf der Webseite                                                                           |
+    | `#element_id, .element_class, h1 {}` | Die Gruppe von Elemente mit `id="element_id"`, Elemente mit `class="element_class"` und `<h1>` Elemente. |
+    | `[href] {}`                          | Alle Elemente mit dem Attribut `href`                                                                    |
+
+* Woraus besteht eine CSS-Regel und was bewirken diese?
