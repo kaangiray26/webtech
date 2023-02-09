@@ -141,3 +141,15 @@ Erklären Sie die Eigenschaft "Idempotent" mit dem Beispiel der DELETE Methode (
 * Also, die DELETE Methode wird benutzt, um ein Resource an dem Server zu löschen. DELETE ist **idempotent**, weil es immer die gleiche Wirkung an dem Server erzeugt. Dabei, löscht es den Resource an jedem Request, wenn es da vorhanden ist.
 
 ### 5
+Sie erhalten den Status Code nxy (Konkretisierung durch nє[1-9], x,yє[0-9]). Kreisen Sie die Fehlerursache ein (Austauschbar durch andere Status Codes).
+
+| Code | Bedeutung                              |
+| ---- | -------------------------------------- |
+| 1xx  | Für Informationen über die Anforderung |
+| 2xx  | Für erfolgreiche Anforderungen         |
+| 3xx  | Für Umleitung der Anforderung          |
+| 4xx  | Für Client-Fehlern                     |
+| 5xx  | Für Server-Fehlern                     |
+| 9xx  | Proprietäre                            |
+
+### 6
