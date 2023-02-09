@@ -182,4 +182,3 @@ Mit dem CGI werden HTML-Seiten dynamisch erzeugt. Bei jedem Request wird ein Int
 
 ### 11
 Was sind die Vorteile und Nachteile von Apache Modules gegenüber von CGI und Fast CGI? Nennen Sie jeweils x Vor- und Nachteile.
-
