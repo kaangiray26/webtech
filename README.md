@@ -1,3 +1,5 @@
+# Notes
+
 ## HTML & CSS
 
 ### 1
@@ -120,3 +122,11 @@ Beschreiben Sie die Funktionsweise und Eigenschaften des HyperText Transfer Prot
 * Es ist zustandlos und funktioniert über Requests und Responses.
 
 ### 2
+Wofür sind die HTTP Header Informationen nützlich oder notwendig?
+
+* Da HTTP zustandlos ist, man muss einige notwendige Informationen im HTTP Header behalten.
+* Dies kann man benutzen z.B. um den Typ der Inhalt zu bestimmen (`Content-Type`).
+* Oder kann man die Cache-Eigenschaften verwalten (`Cache-Control`).
+* Oder kann man die User Agent des Geräts noch deklarieren (`User-Agent`).
+
+### 3
