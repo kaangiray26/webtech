@@ -1,4 +1,4 @@
-# Notes
+# Fragenkatalog
 
 ## HTML & CSS
 
@@ -135,3 +135,9 @@ Was ist die Aufgabe der "Request Line" eines HTTP Requests?
 Die "Request Line" z.B. (`GET /api/feed HTTP/1.1`) ist notwendig dafür, die Methode für die HTTP Protocol, die Adresse der Resource und den Version von der HTTP Protokol zu bestimmen.
 
 ### 4
+Erklären Sie die Eigenschaft "Idempotent" mit dem Beispiel der DELETE Methode (Austauschbar mit anderen Eigenschaften und Methoden)
+
+* Wenn eine Methode **idempotent** ist, die Wirkung an dem Server bei einem Request ist das gleiche wie beim mehreren identische Requests an den gliechem Resource.
+* Also, die DELETE Methode wird benutzt, um ein Resource an dem Server zu löschen. DELETE ist **idempotent**, weil es immer die gleiche Wirkung an dem Server erzeugt. Dabei, löscht es den Resource an jedem Request, wenn es da vorhanden ist.
+
+### 5
