@@ -116,3 +116,7 @@ Auf einer Webseite werden die Umlaute kryptisch dargestellt. Welche Ursachen kö
 ### 1
 Beschreiben Sie die Funktionsweise und Eigenschaften des HyperText Transfer Protocols.
 
+* HTTP ist ein Protokol zur Übertragung von Daten an der Anwendungsschicht.
+* Es ist zustandlos und funktioniert über Requests und Responses.
+
+### 2
